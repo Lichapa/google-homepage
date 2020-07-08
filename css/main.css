@@ -3,3 +3,31 @@ ul{
     margin: 0;
     padding: 0;
   }
+
+  ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li{
+display: inline;
+
+}
+a {
+text-decoration: none;
+
+}
+
+a:hover {
+text-decoration: underline;
+}
+
+.footer {
+    background-color: rgba(182, 174, 192, 0.952);
+    color: #5F6368;
+    padding-top: 10 10 10 10;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    
+}
