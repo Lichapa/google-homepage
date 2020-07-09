@@ -8,13 +8,25 @@
     </head>
 
     <body>
+        <nav class="navbar">
+            <ul class="navbarul">
+                <li><a href="#">About</a></li>
+                <li><a href="#">store</a></li>
+                <nav class="right">
+                <li><a href="#">Gmail</a></li>
+                <li><a href="#">Images</a></li>
+                <li><input type="button" value="Sign in" name="signin"> </li>
+                </nav>
+            </ul> 
+        </nav>
+       
         <div id="main">
                 <div id="logo">
                     <img src="googlelogo.png">
                 </div>
                 <div id="form">
                     <form id="search">
-                    <input type="text" required name="searchbox"  id="search"> <br>
+                    <input class="search" type="text" required name="searchbox"  id="search"> <br>
                     <input type="button" name="google" id="google" value="Goolge search">
                     <input type="button" name="feelinglucky" id="feelinglucky" value="Feeling lucky">                       
                     </form>
@@ -23,25 +35,17 @@
                     Google offered in: <a href="#">Chichewa</a> <a href="#">Tumbuka</a>
                 </p>
         </div>
-        <nav class="navbar">
-            <ul class="navbarul">
-                <li class="left"><a href="#">About</a></li>
-                <li class="left"><a href="#">store</a></li>
-                <li class="right"><a href="#">Gmail</a></li>
-                <li class="right"><a href="#">Images</a></li>
-                <li class="right"><img class="navoptions" src="" ></li>
-                <li class="right"><input type="button" value="Sign in"> </li>
-              </ul> 
-        </nav>
-       
+        
         <nav class="footer">
             <ul class="footerul">
-                <li class="left"><a href="#"> Advertising</a></li>
-                <li class="left"><a href="#">Business</a></li>
-                <li class="left"><a href="#">How Search Works</a> </li>
-                <li class="right"><a href="#">Privacy</a></li>
-                <li class="right"><a href="#">Terms</a></li>
-                <li class="right"><a href="#">Settings</a></li>
+                <li><a href="#"> Advertising</a></li>
+                <li><a href="#">Business</a></li>
+                <li><a href="#">How Search Works</a> </li>
+                <nav class="right">
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">Settings</a></li>
+                </nav>
             </ul>
 
         </nav>

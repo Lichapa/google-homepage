@@ -1,0 +1,11 @@
+<nav class="navbar">
+            <ul class="navbarul">
+                <li class="left"><a href="#">About</a></li>
+                <li class="left"><a href="#">store</a></li>
+                <li class="right"><a href="#">Gmail</a></li>
+                <li class="right"><a href="#">Images</a></li>
+                <li class="right"><img class="navoptions" src="" ></li>
+                <li class="right"><input type="button" value="Sign in"> </li>
+              </ul> 
+        </nav>
+       
