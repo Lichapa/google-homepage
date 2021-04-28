@@ -1,7 +1,11 @@
-
+body, input, button {
+    font-size: 14px;
+    font-family: arial, sans-serif;
+    color: #222;
+}
 .navbar{
     position: fixed;
-    top: 20px;
+    top: 10px;
     width: 95%;
     height: 35px;
 }
@@ -30,7 +34,7 @@ ul a {
 #main{
     width: 50%;
     position: absolute;
-    top: 50%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -48,10 +52,19 @@ input{
     height:40px;
     border: 1px solid #d1ceceda;
     border-radius: 30px;
+
 }
 
 .button{
-    
+    width: auto; 
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px ;
+    margin: 20px 5px;
+}
+
+p a {
+    text-decoration: none;
 }
 
 
@@ -72,10 +85,6 @@ input{
     color: #757575;
     padding: 5px;
     font-size: 10pt;
-}
-
-.inline{
-    display: inline-flex;
 }
 
 .navbarimg{
