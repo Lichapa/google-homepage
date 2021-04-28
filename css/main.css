@@ -55,6 +55,17 @@ input{
 
 }
 
+.input-icons i {
+    position:absolute;
+}
+
+.icon {
+    padding: 10px 5px;
+    min-width: 40px;
+    margin-top: 30px;
+    color: #757575;
+}
+
 .button{
     width: auto; 
     border: none;
