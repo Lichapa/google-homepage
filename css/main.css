@@ -63,7 +63,13 @@ input{
     padding: 10px 5px;
     min-width: 40px;
     margin-top: 30px;
-    color: #757575;
+    color: #b6b0b0d2;
+}
+
+.icon2 {
+    margin-left: 72%;
+    font-size: 20px;
+    color: blue;
 }
 
 .button{
@@ -104,4 +110,10 @@ p a {
     background-size: cover;
     display: block;
     border-radius:50%;
+    margin-top: -5px;
+}
+
+.fa-bars {
+    font-size: 20px;
+    color: #686868
 }
