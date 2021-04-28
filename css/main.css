@@ -1,7 +1,9 @@
+
 .navbar{
     position: fixed;
-    top: 0px;
-    width: 100%;
+    top: 20px;
+    width: 95%;
+    height: 35px;
 }
 
 ul {
@@ -15,7 +17,7 @@ ul {
 }
 li{
     float: left;
-    padding: 5px 5px 5px 5px;
+    padding: 10px 10px;
 }
 ul a {
     color: black;
@@ -43,13 +45,16 @@ input{
 .search{
     width: 80%;
     overflow: hidden;
+    height:40px;
+    border: 1px solid #d1ceceda;
+    border-radius: 30px;
 }
 
-input[type=text]{
-    border-radius: 10px;
-    border: 1px solid #757575;
-    height: 24px;
+.button{
+    
 }
+
+
 .footer{
     background: #f2f2f2;
     font-family: arial;
@@ -59,9 +64,24 @@ input[type=text]{
     width: 100%;
     bottom: 0;
 }
+.footerul{
+    width: 95%;
+}
 
 .footer a{
     color: #757575;
     padding: 5px;
     font-size: 10pt;
+}
+
+.inline{
+    display: inline-flex;
+}
+
+.navbarimg{
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    display: block;
+    border-radius:50%;
 }
